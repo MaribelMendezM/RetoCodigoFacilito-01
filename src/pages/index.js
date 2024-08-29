@@ -9,7 +9,7 @@ const Index = ({ pets }) => {
   return (
     <>
 
-      {/* TODO: Display Hours component priena 2*/}
+      {/* TODO: Display Hours component priena 2 */}
       <Hours />
       {/* Create a card for each pet */}
       {pets.map((pet) => (
@@ -23,7 +23,7 @@ const Index = ({ pets }) => {
 
               {/* Extra Pet Info: Likes and Dislikes */}
               <div className="likes info">
-                <p className="label">Likes</p>
+                <p className="label">Likes HELLP</p>
                 <ul>
                   {pet.likes.map((data, index) => (
                     <li key={index}>{data} </li>
